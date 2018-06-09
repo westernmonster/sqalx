@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/heetch/sqalx"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"github.com/stretchr/testify/require"
+	"github.com/westernmonster/sqalx"
 	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
 )
 
